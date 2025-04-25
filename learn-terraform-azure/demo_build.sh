@@ -15,3 +15,12 @@ terraform init
 terraform fmt       # auto updates all tf files in the current directory
 terraform validate  # validate the configuration files in a directory
 
+## Apply your Terraform Configuration
+terraform apply # you'll be prompted to confirm the action
+
+## Inspect your state file
+terraform show
+
+## Show the individaul azure resources
+terraform state list
+
