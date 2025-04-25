@@ -1,0 +1,10 @@
+## To get started deploying stuff to Azure, we need to be able to authenticate, 
+## thus, we create an app registartion and get the credentials for it.
+
+az ad sp create-for-rbac --role="Contributor" --scopes="/subscriptions/57d***08f"
+
+export ARM_CLIENT_ID="836***4f6"
+export ARM_CLIENT_SECRET="ame***bmy"
+export ARM_SUBSCRIPTION_ID="57d***08f"
+export ARM_TENANT_ID="c17***65c"
+
