@@ -8,3 +8,10 @@ export ARM_CLIENT_SECRET="ame***bmy"
 export ARM_SUBSCRIPTION_ID="57d***08f"
 export ARM_TENANT_ID="c17***65c"
 
+## Initialize your Terraform configuration. Need to run in the directory where your .tf file is located.
+terraform init
+
+## Format and validate the configuration
+terraform fmt       # auto updates all tf files in the current directory
+terraform validate  # validate the configuration files in a directory
+

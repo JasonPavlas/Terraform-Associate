@@ -1,0 +1,29 @@
+# Terraform state and backup files
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfplan
+*.tfvars
+*.tfvars.json
+.terraform/
+
+# Sensitive Azure files
+azure.tfvars
+*.azureprofile
+*.azurecredentials
+
+# Local environment files
+.env
+.env.*
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
